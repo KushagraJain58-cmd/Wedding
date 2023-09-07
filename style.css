@@ -29,12 +29,15 @@ footer {
     background-color: #000;
     margin: 0;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
 }
 
  @media screen and (max-width:800px){
    .card img {
     font-size: 17px;
+}
+footer {
+    font-size: 12px;
 }
 }
 @media screen and (max-width:580px){
@@ -43,11 +46,32 @@ footer {
     width: 90vw;
     font-size: 15px;
 }
+footer {
+    font-size: 10px;
+}
 }
 @media screen and (max-width:440px){
    .card img {
     height: 100%;
     width: 90vw;
     font-size: 12px;
+}
+footer {
+    font-size: 9px;
+}
+}
+@media screen and (max-width:380px){
+
+footer {
+    font-size: 8px;
+}
+}
+@media screen and (max-width:350px){
+    .card img {
+    height: 70vh;
+    width: 95vw;
+}
+footer {
+    font-size: 10px;
 }
 }
